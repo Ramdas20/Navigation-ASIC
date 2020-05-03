@@ -21,7 +21,8 @@ Code Explanation
 3.Load upper immediate i.e the upper 20 bits of the 32 bit register6 is set to value #07.
 4.ADDI instruction adds an immediate value FF to reg5 and stores the result in reg6.
 5.The values in reg5 and reg6 is added and result is stored in destination register reg7.
-6.
+6.The contents of x7 is read from regfile and placed in a memory location whose address is given by x0+0x51
+7.The value of PC is updated to (value of PC corresponding Jump instruction + x0)
 
 
 
